@@ -1654,6 +1654,11 @@ input, select, textarea {
 			font-weight: 300;
 		}
 
+		#footer a {
+			color:#000000;
+			font-weight: 300;
+		}
+
 		body.is-article-visible #footer {
 			-moz-transform: scale(0.95);
 			-webkit-transform: scale(0.95);
