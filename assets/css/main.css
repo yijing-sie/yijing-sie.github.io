@@ -162,8 +162,6 @@ input, select, textarea {
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
 		text-decoration: none;
-		color: #000000;
-		font-weight: 600;
 	}
 
 		a:hover {
@@ -1374,6 +1372,8 @@ input, select, textarea {
 					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
 					border-bottom: 0;
+					color:#000000;
+					font-weight: 600;
 				}
 
 					#header nav ul li a:hover {
@@ -1650,6 +1650,8 @@ input, select, textarea {
 			opacity: 0.75;
 			margin-bottom: 0;
 			text-transform: uppercase;
+			color: #000000;
+			font-weight: 300;
 		}
 
 		body.is-article-visible #footer {
