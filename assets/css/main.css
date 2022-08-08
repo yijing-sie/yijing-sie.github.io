@@ -148,11 +148,11 @@ input, select, textarea {
 	}
 
 	body {
-		color: #ffffff;
+		color: #000000;
 		font-family: "Source Sans Pro", sans-serif;
 		font-weight: 300;
 		font-size: 1rem;
-		line-height: 1.65;
+		line-height: 1.5;
 	}
 
 	a {
@@ -1377,7 +1377,7 @@ input, select, textarea {
 				}
 
 					#header nav ul li a:hover {
-						background-color: rgba(255, 255, 255, 0.075);
+						background-color: rgba(255, 255, 255, 0.75);
 					}
 
 					#header nav ul li a:active {
@@ -1554,7 +1554,7 @@ input, select, textarea {
 			position: relative;
 			width: 40rem;
 			max-width: 100%;
-			background-color: rgba(27, 31, 34, 0.85);
+			background-color: rgba(250, 255, 255, 0.6);
 			border-radius: 4px;
 			opacity: 0;
 		}
