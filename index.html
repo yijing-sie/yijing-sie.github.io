@@ -31,10 +31,8 @@
 						<nav>
 							<ul>
 								<li><a href="#about">About</a></li>
-								<li><a href="#research">Research</a></li>
-								<li><a href="#cources">Cources</a></li>
-								<li><a href="#contact">Contact</a></li>
-								<li><a href="#elements">Elements</a></li>
+								<li><a href="#project">Independent Project</a></li>
+								<li><a href="#courcework">Courcework</a></li>
 							</ul>
 						</nav>
 					</header>
@@ -45,11 +43,11 @@
 							<article id="about">
 								<h2 class="major">About</h2>
 								<span class="image main"><img src="images/about.jpg" alt="" /></span>
-								<p>I am a recent grad actively looking for a full-time job in <b>Machine Learning</b>.<p>
+								<p>I am a recent grad actively looking for a job in <b>Software Engineering\Machine Learning</b>.<p>
 
 								<p>I hold a master's degree in Electrical and Computer Engineering from Carnegie Mellon University and a bachelor's degree in Electrical Engineering from National Taiwan Ocean University. I was also an exchange student my entire junior year at Clarkson University.</p>
 									
-								<p>I have conducted two machine learning independent research projects in college, the first about <b>Image Processing</b> and the second about <b>Anomaly Detection</b>; At CMU, I deepened and broadened my knowledge in machine learning with coursework and course projects.</p>
+								<p>I have conducted two machine learning independent research projects in college, the first about <b>Image Processing</b> and the second about <b>Anomaly Detection</b>; At CMU, I deepened and broadened my knowledge in machine learning with coursework.</p>
 									
 								<p><i>Programming Languages: Python, C, Java, Haskell, C++, Matlab</i></p>
 							</article>
@@ -62,10 +60,10 @@
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
 							</article>
 
-							<!-- rearch -->
-							<article id="research">
+							<!-- project -->
+							<article id="project">
 								
-								<h2 class="major">Research</h2>
+								<h2 class="major">Independent Project</h2>
 								<span class="video main"><video width=100% autoplay loop muted>
 									<source src="videos/fish.mp4" type="video/mp4" />
 									Your browser does not support the video tag.
@@ -73,74 +71,61 @@
 								</span>
 								<p><b>Automatic Fish Detection and Tracking in Underwater Videos</b></p>
 								<ul>
-									<li>Deployed a pre-trained Google's TensorFlow Object Detection model with OpenCV on Python to detect and track fish in complex, changeable underwater environments recorded from video clips in real-time</li>
+									<li>Re-trained the <a href="https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf1_detection_zoo.md" target="_blank">Faster-RCNN-Inception-V2-COCO</a> model from Google's TensorFlow Object Detection API and employed <a href="https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html" target="_blank">OpenCV</a> with Python to detect and track fish in complex, changeable underwater environments from recorded video clips</li>
 									<li>Collected and labeled fish pictures manually to create a custom training dataset</li>
-									<li>Re-trained the Faster-RCNN-Inception-V2-COCO model and calculated the FPS to measure the performance </li>
+									<li>Calculated the FPS to measure the performance</li>
 								</ul>
 								<small><a href="https://colab.research.google.com/drive/144IsyG8X_CBeqDgeFheK76XWIB-5CO1O?usp=sharing" target="_blank">I wrote a step-by-step tutorial for employing Google Colab pro to re-train pre-trained Google Object Detection model for fish video detection (2022 ver.)</a></small>
 								<p><b>On Detecting Rare Patterns</b></p>
 								<ul>
-									<li>Studied the proposed model in <a href="https://auai.org/uai2016/proceedings/papers/226.pdf" target="_blank">Finite Sample Complexity of Rare Pattern Anomaly Detection </a> to replicate the work from scratch</li>
-									<li>Analyzed and Identified the model weaknesses to develope an improved model that builds on it to accommodate imbalanced datasets and outperform other popular outlier detection algorithms, such as GMM, PPCA, LSA, LOF, one−class SVM, and Isolation Forest on categorical datasets, such as shuttle, wine-quality, ann-thyroid, mammography, yeast, and covtype</li>
+									<li>Implemented from scratch the model and replicated the experiments in  <a href="https://auai.org/uai2016/proceedings/papers/226.pdf" target="_blank">Finite Sample Complexity of Rare Pattern Anomaly Detection</a></li>
+									<li>Analyzed and identified the model weaknesses, creating an improved model to accommodate imbalanced datasets and outperform other popular outlier detection algorithms, such as GMM, PPCA, LSA, LOF, one−class SVM, and Isolation Forest on categorical datasets, such as shuttle, wine-quality, ann-thyroid, mammography, yeast, and covtype</li>
 								</ul>
 								<p><b>Scara Robot Arm</b></p>
 								<ul>
-									<li>Designed and constructed 3D printed parts along with ramps 1.4 controller board powering an Arduino board mega 2560, two 42-step motors, and a servo to create a mini programmable robot arm that can draw and write enabled by G-code programs</li>
+									<li>Designed and constructed 3D printed parts along with ramps 1.4 controller board powering an Arduino board mega 2560, two 42-step motors, and a servo to create a mini programmable robot arm that can draw and write by utilizing G-code programs</li>
 									<li><a href="https://drive.google.com/file/d/1kdy5dClUdHl32Sdwz7LSjfL80-Yay5MF/view?usp=sharing" target="_blank">Demonstration</a></li>
 								</ul>
 
 							</article>							
 
 							<!-- Cource -->
-							<article id="cources">
-								<h2 class="major">Cources</h2>
+							<article id="courcework">
+								<h2 class="major">Courcework</h2>
 								<dl>
-									<dt>Machine Learning</dt>
-									<dd>- Introduction to Deep Learning (Pytorch)</dd>
-									<dd>- Introduction to Machine Learning (Python)</dd>
-									<dd>- Optimization (Python)</dd>
-									<dd>- Estimation, Detection, and Learning (Python)</dd>
-									<dd>- Foundations of Causation and Machine Learning (Python)</dd>
-									<dt>Software</dt>
-									<dd>- Introduction to Computer Systems (C)</dd>
-									<dd>- Computational Problem Solving for Engineers (C, C++, Python)</dd>
-									<dd>- Algorithms and Data Structures (C++)</dd>
-									<dd>- Software Design for Visual Environments (Java)</dd>
-									<dd>- Advanced Programming Concepts in Java (Java)</dd>
-									<dd>- Programming Languages (Haskell)</dd>
+									<dt>Introduction to Deep Learning (Python + Pytorch)</dt>
+									<dd style='display:list-item;'>A neural network predicting phoneme state labels for Mel spectrogram frames for speech recognition + MLP implementation <samll><a href="https://github.com/yijing-sie/Neural-Network" target="_blank">[Link]</a></samll></dd>
+									<dd style='display:list-item;'>A ResNet50 model for face classification and face verification + CNN implementation <samll><a href="https://github.com/yijing-sie/ResNet50" target="_blank">[Link]</a></samll></dd>
+									<dd style='display:list-item;'>A stacked LSTM model with a CTC beam search decoder model for speech recognition + RNN & GRU & CTC implementation <samll><a href="https://github.com/yijing-sie/RNN-and-LSTM" target="_blank">[Link]</a></samll></dd>
+									<dd style='display:list-item;'>A character-based attention model with teaching-forcing method for retrieving attention plots <samll><a href="https://github.com/yijing-sie/Regularized_lstm-and-Attention" target="_blank">[Link]</a></samll></dd>
+									<dd style='display:list-item;'>A regularized LSTM model for next word prediction and text generation <samll><a href="https://github.com/yijing-sie/Regularized_lstm-and-Attention" target="_blank">[Link]</a></samll></dd>
+									<dt>Optimization (Python)</dt>
+									<dd style='display:list-item;'>An improved iterative thresholding model for sparse gray-image reconstruction optimization problem <samll><a href="https://github.com/yijing-sie/Sparse_Image_Reconstruction" target="_blank">[Link]</a></samll></dd>
+									<dt>Advanced Programming Concepts in Java (Java + JavaFx)</dt>
+									<dd style='display:list-item;'>A multi-user chat app enabling multiple computers to connect to the same chat room for the exchange of messages, encrypted text files, and images <samll><a href="https://github.com/yijing-sie/ChatApp_Clype" target="_blank">[Link]</a></samll></dd>
+									<dd style='display:list-item;'>A restaurant service simulator <samll><a href="https://github.com/yijing-sie/Restaurant_Service_Simulation" target="_blank">[Link]</a></samll></dd>
+									<dd style='display:list-item;'>A math calculator app <samll><a href="https://github.com/yijing-sie/Calculator" target="_blank">[Link]</a></samll></dd>
+									<dd style='display:list-item;'>A financial calculator app <samll><a href="https://github.com/yijing-sie/Financial_Calculator" target="_blank">[Link]</a></samll></dd>
+									<dt>Introduction to Computer Systems (C)</dt>
+									<dd style='display:list-item;'>A cache simulator simulating the behavior of a cache with arbitrary size and associativity <samll><a href="https://github.com/yijing-sie/Cache-Simulator" target="_blank">[Link]</a></samll></dd>
+									<dd style='display:list-item;'>A dynamic storage allocator with self implemented malloc, realloc, calloc, and free functions <samll><a href="https://github.com/yijing-sie/Dynamic-Storage-Allocator" target="_blank">[Link]</a></samll></dd>
+									<dd style='display:list-item;'>A Linux shell program as an interactive command-line interpreter for running programs on behalf of users, supporting job control and I/O <samll><a href="https://github.com/yijing-sie/Linux-shell" target="_blank">[Link]</a></samll></dd>
+									<dd style='display:list-item;'>A web proxy server as an intermediary between multiple clients and the internet server for accessing web resources and caching it for furture use <samll><a href="https://github.com/yijing-sie/Web-Proxy-Server" target="_blank">[Link]</a></samll></dd>
+									<dt>Algorithms and Data Structures (C++)</dt>
+									<dd style='display:list-item;'>A generic class that provides operations, such as find, insert, erase, indexing operator, empty, and clear, acting like map in STL <samll><a href="https://github.com/yijing-sie/Hashtable" target="_blank">[Link]</a></samll></dd>
 								</dl>
 							</article>
 
-						<!-- Contact -->
+						<!-- Contact
 							<article id="contact">
 								<h2 class="major">Contact</h2>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="4"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Reset" /></li>
-									</ul>
-								</form>
 								<ul class="icons">
 									<li><a href="https://www.linkedin.com/in/yijing-sie" target="_blank" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
 									<li><a href="https://github.com/yijing-sie" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
-							</article>
+							</article> -->
 
-						<!-- Elements -->
+						<!-- Elements
 							<article id="elements">
 								<h2 class="major">Elements</h2>
 
@@ -159,9 +144,9 @@
 									<h4>Blockquote</h4>
 									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
 									<h4>Preformatted</h4>
-									<pre><code>i = 0;
+									<pre><code>i = 0; -->
 
-while (!deck.isInOrder()) {
+<!-- while (!deck.isInOrder()) {
     print 'Iteration ' + i;
     deck.shuffle();
     i++;
@@ -306,9 +291,9 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 											</tfoot>
 										</table>
 									</div>
-								</section>
+								</section> -->
 
-								<section>
+								<!-- <section>
 									<h3 class="major">Buttons</h3>
 									<ul class="actions">
 										<li><a href="#" class="button primary">Primary</a></li>
@@ -326,9 +311,9 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 										<li><span class="button primary disabled">Disabled</span></li>
 										<li><span class="button disabled">Disabled</span></li>
 									</ul>
-								</section>
+								</section> -->
 
-								<section>
+								<!-- <section>
 									<h3 class="major">Form</h3>
 									<form method="post" action="#">
 										<div class="fields">
@@ -376,7 +361,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 											<li><input type="reset" value="Reset" /></li>
 										</ul>
 									</form>
-								</section>
+								</section> -->
 
 							</article>
 
@@ -384,6 +369,10 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 				<!-- Footer -->
 					<footer id="footer">
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/yijing-sie" target="_blank" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+							<li><a href="https://github.com/yijing-sie" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
 						<p class="copyright">&copy; Credit: <a href="https://html5up.net/dimension">HTML5 UP</a>.</p>
 					</footer>
 

@@ -141,7 +141,7 @@ input, select, textarea {
 
 	input, select, textarea {
 		color: #000000;
-		font-family: "Source Sans Pro", sans-serif;
+		font-family: "Calibri";
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 1.65;
@@ -149,7 +149,7 @@ input, select, textarea {
 
 	body {
 		color: #000000;
-		font-family: "Source Sans Pro", sans-serif;
+		font-family: "Calibri";
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 1.5;
@@ -778,11 +778,15 @@ input, select, textarea {
 		dl dt {
 			display: block;
 			font-weight: 600;
-			margin: 0 0 1rem 0;
+			margin: 1rem 0 0 0;
 		}
 
 		dl dd {
 			margin-left: 2rem;
+		}
+
+		dl dd a {
+			font-size:smaller;
 		}
 
 /* Actions */
@@ -1369,13 +1373,14 @@ input, select, textarea {
 
 				#header nav ul li a {
 					display: block;
-					min-width: 7.9rem;
+					min-width: 12rem;
 					height: 2.75rem;
 					line-height: 2.75rem;
-					padding: 0 1.25rem 0 1.45rem;
+					padding: 0 1.25rem 0 1.25rem;
 					text-transform: uppercase;
-					letter-spacing: 0.2rem;
+					letter-spacing: 0.1rem;
 					font-size: 0.8rem;
+					font-family: "Source Sans Pro", sans-serif;
 					border-bottom: 0;
 					color:#000000;
 					font-weight: 600;
