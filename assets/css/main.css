@@ -8,7 +8,7 @@
 */
 
 html, body, div, span, applet, object,
-iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+iframe, h1, h2, h3, h4, h5, h6, p, sp, blockquote,
 pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
@@ -191,6 +191,9 @@ input, select, textarea {
 
 	p {
 		margin: 2rem 0 0 0;
+	}
+	sp {
+		margin: 0rem 0 0 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1355,6 +1358,14 @@ input, select, textarea {
 				color: #000000;
 				font-weight: 600;
 			}
+			#header .content sp {
+				text-transform: uppercase;
+				letter-spacing: 0.2rem;
+				font-size: 0.8rem;
+				line-height: 2;
+				color: #000000;
+				font-weight: 600;
+			}
 
 		#header nav ul {
 			display: -moz-flex;
@@ -1452,6 +1463,13 @@ input, select, textarea {
 			}
 
 		}
+		@media screen and (max-width: 980px) {
+
+			#header .content sp br {
+				display: none;
+			}
+
+		}
 
 		@media screen and (max-width: 736px) {
 
@@ -1479,6 +1497,9 @@ input, select, textarea {
 			}
 
 			#header .content p {
+				line-height: 1.875;
+			}
+			#header .content sp {
 				line-height: 1.875;
 			}
 
